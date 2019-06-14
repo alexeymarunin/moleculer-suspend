@@ -1,0 +1,33 @@
+{
+  "name": "moleculer-suspend",
+  "version": "1.0.0",
+  "description": "Moleculer mixin for suspend/resume services",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --ui bdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeymarunin/moleculer-suspend.git"
+  },
+  "keywords": [
+    "microservices",
+    "moleculer",
+    "suspend"
+  ],
+  "author": "Alexey Marunin <108dev.marunin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexeymarunin/moleculer-suspend/issues"
+  },
+  "homepage": "https://github.com/alexeymarunin/moleculer-suspend#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "moleculer": "^0.13.9",
+    "wildcard": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
